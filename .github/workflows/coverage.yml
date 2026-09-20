@@ -1,4 +1,4 @@
-name: Coverage Check
+name: Coverage Gate
 
 on:
   pull_request:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  coverage:
+  coverage_gate:
     runs-on: ubuntu-latest
 
     steps:
